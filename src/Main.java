@@ -37,10 +37,8 @@ public class Main {
         }
         System.out.println("Задача №9");
         int income = 0;
-        int totali = 29_000;
         for (int u = 1; u <= 12; u++) {
-            totali *= 1.01;
-            income = income + totali;
+            income = (int)((income +29_000) * 1.01);
             System.out.println("За " + u + " Месяц сумма накоплений равна " + income + " рублей");
         }
         System.out.println("Задача №10");
